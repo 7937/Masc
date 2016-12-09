@@ -58,6 +58,9 @@
 		A58877C91DFA599E00B93778 /* Masc */ = {
 			isa = PBXGroup;
 			children = (
+				A58877E71DFAB15B00B93778 /* controller */,
+				A58877E61DFAB15200B93778 /* model */,
+				A58877E51DFAB14A00B93778 /* view */,
 				A58877CD1DFA599E00B93778 /* AppDelegate.h */,
 				A58877CE1DFA599E00B93778 /* AppDelegate.m */,
 				A58877D01DFA599E00B93778 /* ViewController.h */,
@@ -77,6 +80,27 @@
 				A58877CB1DFA599E00B93778 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A58877E51DFAB14A00B93778 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A58877E61DFAB15200B93778 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A58877E71DFAB15B00B93778 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
