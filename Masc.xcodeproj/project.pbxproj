@@ -13,6 +13,18 @@
 		A58877D51DFA599E00B93778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58877D31DFA599E00B93778 /* Main.storyboard */; };
 		A58877D71DFA599E00B93778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58877D61DFA599E00B93778 /* Assets.xcassets */; };
 		A58877DA1DFA599E00B93778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58877D81DFA599E00B93778 /* LaunchScreen.storyboard */; };
+		A58877F01DFE963300B93778 /* ForestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A58877EF1DFE963300B93778 /* ForestView.m */; };
+		A58877FA1DFF9C6300B93778 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58877F91DFF9C6200B93778 /* CoreData.framework */; };
+		A58877FD1DFFD25300B93778 /* ForestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58877FC1DFFD25300B93778 /* ForestModel.m */; };
+		A58878001DFFD94800B93778 /* forest.png in Resources */ = {isa = PBXBuildFile; fileRef = A58877FF1DFFD94800B93778 /* forest.png */; };
+		A58878031DFFD9D800B93778 /* RoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A58878021DFFD9D800B93778 /* RoadView.m */; };
+		A58878051DFFDABD00B93778 /* road.png in Resources */ = {isa = PBXBuildFile; fileRef = A58878041DFFDABD00B93778 /* road.png */; };
+		A58878081DFFE5FA00B93778 /* MineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A58878071DFFE5FA00B93778 /* MineView.m */; };
+		A588780A1DFFE62100B93778 /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = A58878091DFFE62100B93778 /* mine.png */; };
+		A588780D1DFFE8B200B93778 /* SeaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A588780C1DFFE8B200B93778 /* SeaView.m */; };
+		A588780F1DFFE9B800B93778 /* sea.png in Resources */ = {isa = PBXBuildFile; fileRef = A588780E1DFFE9B800B93778 /* sea.png */; };
+		A58878121DFFEADA00B93778 /* PlainView.m in Sources */ = {isa = PBXBuildFile; fileRef = A58878111DFFEADA00B93778 /* PlainView.m */; };
+		A58878141DFFEC3400B93778 /* plain.png in Resources */ = {isa = PBXBuildFile; fileRef = A58878131DFFEC3400B93778 /* plain.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,25 @@
 		A58877D61DFA599E00B93778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A58877D91DFA599E00B93778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A58877DB1DFA599E00B93778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58877EA1DFAB30000B93778 /* ViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewConfig.h; sourceTree = "<group>"; };
+		A58877EE1DFE963300B93778 /* ForestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForestView.h; sourceTree = "<group>"; };
+		A58877EF1DFE963300B93778 /* ForestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForestView.m; sourceTree = "<group>"; };
+		A58877F91DFF9C6200B93778 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A58877FB1DFFD25300B93778 /* ForestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForestModel.h; sourceTree = "<group>"; };
+		A58877FC1DFFD25300B93778 /* ForestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForestModel.m; sourceTree = "<group>"; };
+		A58877FF1DFFD94800B93778 /* forest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest.png; sourceTree = "<group>"; };
+		A58878011DFFD9D800B93778 /* RoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoadView.h; sourceTree = "<group>"; };
+		A58878021DFFD9D800B93778 /* RoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoadView.m; sourceTree = "<group>"; };
+		A58878041DFFDABD00B93778 /* road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road.png; sourceTree = "<group>"; };
+		A58878061DFFE5FA00B93778 /* MineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineView.h; sourceTree = "<group>"; };
+		A58878071DFFE5FA00B93778 /* MineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineView.m; sourceTree = "<group>"; };
+		A58878091DFFE62100B93778 /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine.png; sourceTree = "<group>"; };
+		A588780B1DFFE8B200B93778 /* SeaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeaView.h; sourceTree = "<group>"; };
+		A588780C1DFFE8B200B93778 /* SeaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeaView.m; sourceTree = "<group>"; };
+		A588780E1DFFE9B800B93778 /* sea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea.png; sourceTree = "<group>"; };
+		A58878101DFFEADA00B93778 /* PlainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlainView.h; sourceTree = "<group>"; };
+		A58878111DFFEADA00B93778 /* PlainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlainView.m; sourceTree = "<group>"; };
+		A58878131DFFEC3400B93778 /* plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plain.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58877FA1DFF9C6300B93778 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +76,7 @@
 			children = (
 				A58877C91DFA599E00B93778 /* Masc */,
 				A58877C81DFA599E00B93778 /* Products */,
+				A58877F81DFF9C6200B93778 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +91,7 @@
 		A58877C91DFA599E00B93778 /* Masc */ = {
 			isa = PBXGroup;
 			children = (
+				A58877FE1DFFD93900B93778 /* source */,
 				A58877E71DFAB15B00B93778 /* controller */,
 				A58877E61DFAB15200B93778 /* model */,
 				A58877E51DFAB14A00B93778 /* view */,
@@ -85,6 +119,17 @@
 		A58877E51DFAB14A00B93778 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				A58877EA1DFAB30000B93778 /* ViewConfig.h */,
+				A58877EE1DFE963300B93778 /* ForestView.h */,
+				A58877EF1DFE963300B93778 /* ForestView.m */,
+				A58878011DFFD9D800B93778 /* RoadView.h */,
+				A58878021DFFD9D800B93778 /* RoadView.m */,
+				A58878061DFFE5FA00B93778 /* MineView.h */,
+				A58878071DFFE5FA00B93778 /* MineView.m */,
+				A588780B1DFFE8B200B93778 /* SeaView.h */,
+				A588780C1DFFE8B200B93778 /* SeaView.m */,
+				A58878101DFFEADA00B93778 /* PlainView.h */,
+				A58878111DFFEADA00B93778 /* PlainView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -92,6 +137,8 @@
 		A58877E61DFAB15200B93778 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				A58877FB1DFFD25300B93778 /* ForestModel.h */,
+				A58877FC1DFFD25300B93778 /* ForestModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -101,6 +148,26 @@
 			children = (
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		A58877F81DFF9C6200B93778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A58877F91DFF9C6200B93778 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A58877FE1DFFD93900B93778 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				A58877FF1DFFD94800B93778 /* forest.png */,
+				A58878041DFFDABD00B93778 /* road.png */,
+				A58878091DFFE62100B93778 /* mine.png */,
+				A588780E1DFFE9B800B93778 /* sea.png */,
+				A58878131DFFEC3400B93778 /* plain.png */,
+			);
+			name = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +229,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58878141DFFEC3400B93778 /* plain.png in Resources */,
+				A58878001DFFD94800B93778 /* forest.png in Resources */,
+				A58878051DFFDABD00B93778 /* road.png in Resources */,
+				A588780A1DFFE62100B93778 /* mine.png in Resources */,
+				A588780F1DFFE9B800B93778 /* sea.png in Resources */,
 				A58877DA1DFA599E00B93778 /* LaunchScreen.storyboard in Resources */,
 				A58877D71DFA599E00B93778 /* Assets.xcassets in Resources */,
 				A58877D51DFA599E00B93778 /* Main.storyboard in Resources */,
@@ -175,8 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A588780D1DFFE8B200B93778 /* SeaView.m in Sources */,
+				A58878081DFFE5FA00B93778 /* MineView.m in Sources */,
 				A58877D21DFA599E00B93778 /* ViewController.m in Sources */,
+				A58877F01DFE963300B93778 /* ForestView.m in Sources */,
+				A58878031DFFD9D800B93778 /* RoadView.m in Sources */,
+				A58878121DFFEADA00B93778 /* PlainView.m in Sources */,
 				A58877CF1DFA599E00B93778 /* AppDelegate.m in Sources */,
+				A58877FD1DFFD25300B93778 /* ForestModel.m in Sources */,
 				A58877CC1DFA599E00B93778 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
